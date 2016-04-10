@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-scores",
+  "version": "1.0.0",
+  "description": "A Leaflet map of restaurants, with inspection scores, in the fine city of Austin",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Cox",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "leaflet": "^0.7.7",
+    "leaflet.markercluster": "^0.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  }
+}
