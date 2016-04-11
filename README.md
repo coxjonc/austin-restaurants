@@ -1,7 +1,3 @@
-How Likely Are You to Get Sick at Austin Restaurants?
-=====================================================
-Work in progress!! 
-
-A map of restaurants in Austin, TX, with markers colored according to their
-most recent score in a health inspection. 4,000+ restaurants, amount of salmonella
-unknown. 
+Map of Austin Restaurants with Health Inspection Scores
+==================================================
+This is a LeafletJS map of restaurants in Austin, TX. Click on a marker to see a popup giving that restaurant's most recent health inspection score. The map features marker clustering and a search bar so you can find specific restaurants. 
