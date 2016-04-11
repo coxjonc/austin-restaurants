@@ -27,7 +27,7 @@ module.exports = {
     module: {
         loaders: [
             {test: /\.css$/, loader: 'style-loader!css-loader'},
-            {test: /\.(png|jpg)$/, loader: 'file-loader'}
+            {test: /\.(png|jpg|gif)$/, loader: 'file-loader'}
         ]
     },
     
@@ -35,11 +35,11 @@ module.exports = {
         modulesDirectories: ['node_modules'],
         extensions: ['', '.js', '.jsx', '.scss', '.css'],
         alias: {
+            leaflet_search: __dirname + '/node_modules/leaflet-search/dist/leaflet-search.min.js',
+            leaflet_search_css: __dirname + '/node_modules/leaflet-search/dist/leaflet-search.min.css',
+            marker_cluster_css: __dirname + '/node_modules/leaflet.markercluster/dist/MarkerCluster.css',
+            marker_cluster_default_css: __dirname + '/node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css',
             leaflet_css: __dirname + '/node_modules/leaflet/dist/leaflet.css',
-            leaflet_marker: __dirname + '/node_modules/leaflet/dist/images/marker-icon.png',
-            leaflet_marker_shadow: __dirname + '/node_modules/leaflet/dist/images/marker-shadow.png',
-            leaflet_marker_2x: __dirname + "/node_modules/leaflet/dist/images/marker-icon-2x.png",
-            leaflet_marker_shadow: __dirname + "/node_modules/leaflet/dist/images/marker-shadow.png"
         } 
     }   
 }
